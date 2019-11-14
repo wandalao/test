@@ -3,7 +3,7 @@ import os
 app = Flask(__name__)
 @app.route('/')
 def index():
-    return 'Hello World1'
+    return '<div style="color:red;">Hello World1</div>'
 
 def writePid():
     pid = str(os.getpid())
