@@ -1,10 +1,12 @@
 #coding=utf8
 from flask import Flask
 import os
+import random
 app = Flask(__name__)
 @app.route('/')
 def index():
-    return '<div style="color:red;">say hello</div>'
+    rand = random.random()
+    return f'<div style="color:red;">print random {rand}</div>'
 
 def writePid():
     pid = str(os.getpid())
