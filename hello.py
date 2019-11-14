@@ -1,9 +1,10 @@
+#coding=utf8
 from flask import Flask
 import os
 app = Flask(__name__)
 @app.route('/')
 def index():
-    return '<div style="color:red;">Hello World1</div>'
+    return '<div style="color:red;">第二次构建</div>'
 
 def writePid():
     pid = str(os.getpid())
