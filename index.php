@@ -1,3 +1,3 @@
-<?
-vardump(6666);
+<?php
+var_dump(6666);
 ?>
