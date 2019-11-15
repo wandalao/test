@@ -1,3 +1,3 @@
 <?php
-var_dump(6666);
+var_dump("hello world");
 ?>
