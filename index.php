@@ -1,3 +1,3 @@
 <?
-vardump(6666)
+vardump(6666);
 ?>
